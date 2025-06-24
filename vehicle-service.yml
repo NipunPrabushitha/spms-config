@@ -7,7 +7,9 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/spms
     username: root
-    password: your_password
+    password: Ijse@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
     hibernate:
       ddl-auto: update
